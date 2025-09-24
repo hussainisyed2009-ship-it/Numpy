@@ -1,0 +1,15 @@
+# numpy = python numerical computing
+# used for data sciences, analysis, and AI
+# written in c
+
+
+import numpy as np
+
+# print(np.__version__) shows numpy version
+
+
+array = np.array([1, 2, 3, 4])
+
+array = array * 2
+
+print(array)
