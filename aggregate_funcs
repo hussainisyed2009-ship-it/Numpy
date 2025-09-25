@@ -1,0 +1,19 @@
+# aggregate functions are a summary of data and typically return a single value
+
+import numpy as np
+
+
+array = np.array([[1, 2, 3, 4, 5],
+                   [6, 7, 8, 9, 10]])
+
+print(np.sum(array)) # gives sum of array
+print(np.mean(array))
+print(np.std(array)) # standard deviation
+print(np.var(array)) # variants = std squared
+print(np.min(array)) # minimum
+print(np.max(array)) # maximum
+print(np.argmin(array)) # position of min value
+print(np.argmax(array)) # position of max
+
+print(np.sum(array, axis = 0)) # sums all columns
+print(np.sum(array, axis = 1)) # sums all rows
